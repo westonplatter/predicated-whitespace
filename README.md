@@ -1,28 +1,26 @@
-# Whitespace
+# Predicated Whitespace
 
-Whitespace is a minimal and responsive theme for [Octopress](http://octopress.org). This theme lets your content take the center stage of your blog.
+Predicated Whitespace is a minimal, responsive, and visualization focused driven theme for [Octopress](http://octopress.org).
 
 ## Demos
 
-Default theme: [Themespace Preview](http://themespace.github.io/whitespace/)
+<!--Default theme: [Themespace Preview](http://themespace.github.io/whitespace/)-->
 
-Actual blogs: [Lucas Lew's blog](http://lucaslew.com), [Chymeric Tutorials](http://chymeric.eu), [Raúl Fuente Vanilla's Blog](http://rfvallina.com/).
-
-*If you are using whitespace and would like to showcase your website, we would be very happy to add you to the list! Just tell us your URL via the issue tracking system!*
+<!--*If you are using whitespace and would like to showcase your website, we would be very happy to add you to the list! Just tell us your URL via the issue tracking system!*-->
 
 ## Install
 
 ``` sh
 $ cd octopress
-$ git clone git://github.com/lucaslew/whitespace.git .themes/whitespace
-$ rake install['whitespace'] # for zsh, use: rake install\['whitespace'\]
+$ git clone git://github.com/westonplatter/predicated-whitespace.git .themes/predicated-whitespace
+$ rake install['predicated-whitespace'] # for zsh, use: rake install\['predicated-whitespace'\]
 $ rake generate
 ```
 
 ## Update
 
 ``` sh
-$ git -C .themes/whitespace pull origin master
+$ git -C .themes/predicated-whitespace pull origin master
 $ rake install['whitespace']
 $ rake generate
 ```
@@ -32,8 +30,8 @@ $ rake generate
 *For this to work, you have to track your website theme customizations on a remote (we call it ```mywebsiterepo```).*
 
 ``` sh
-$ git -C .themes/whitespace pull origin master
-$ rake install['whitespace']
+$ git -C .themes/predicated-whitespace pull origin master
+$ rake install['predicated-whitespace']
 $ cd ../..
 $ git fetch --all
 $ git reset --hard mywebsiterepo/master
@@ -124,10 +122,4 @@ edit: https://github.com/youruser/yourblog/edit/master/source/
 
 ## License
 
-(The MIT License)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ‘Software’), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED ‘AS IS’, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+See LICENSE file.
