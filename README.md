@@ -1,8 +1,11 @@
 # Predicated Whitespace
 
-Predicated Whitespace is a minimal, responsive, and visualization focused driven theme for [Octopress](http://octopress.org).
+Predicated-Whitespace is a minimal, responsive, and visualization focused 
+driven theme for [Octopress](http://octopress.org).
 
-## Demos
+The theme is a fork of [whitespace](https://github.com/themespace/whitespace/).
+
+<!--## Demos-->
 
 <!--Default theme: [Themespace Preview](http://themespace.github.io/whitespace/)-->
 
@@ -21,7 +24,7 @@ $ rake generate
 
 ``` sh
 $ git -C .themes/predicated-whitespace pull origin master
-$ rake install['whitespace']
+$ rake install['predicated-whitespace']
 $ rake generate
 ```
 
